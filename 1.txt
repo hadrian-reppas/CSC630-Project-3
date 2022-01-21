@@ -1,0 +1,5 @@
+symbols = set(normalized['Symbol'])
+tickers = {s: normalized[normalized['Symbol'] == s] for s in symbols}
+full = {x: y for x, y in tickers.items() if y.shape == (3032, 3)}
+gains = {s: list(d['Gain']) for s, d in full.items()}
+data = pd.DataFrame(gains)
