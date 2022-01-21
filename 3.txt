@@ -1,0 +1,18 @@
+def worst_stock_next_day(data):
+    money = 1
+    for i in range(1, len(data) - 1):
+        worst = worst_stock(data, i)
+        buy = data[i][worst]
+        sell = data[i + 1][worst]
+        money *= sell/buy
+    return money
+
+def worst_stock(data, day):
+    worst = 0
+    gain = float('inf')
+    for i in range(len(data[day])):
+        g = data[day][i]/data[day][i - 1]
+        if g < gain:
+            gain = g
+            worst = i
+    return worst
