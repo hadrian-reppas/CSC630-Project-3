@@ -1,0 +1,19 @@
+arr = np.array(data)
+first = arr[:1516]
+last = arr[1516:]
+
+from scipy.stats.mstats import gmean
+
+def every_other_day(data):
+    money = 1
+    for buy, sell in zip(data[::2], data[1::2]):
+        gain = sell/buy
+        money *= gmean(gain)
+    return money
+
+def every_n_days(data, n):
+    money = 1
+    for buy, sell in zip(data[::n], data[n - 1::n]):
+        gain = sell/buy
+        money *= gmean(gain)
+    return money
