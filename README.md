@@ -3,6 +3,8 @@
 
 ![dishonest](dishonest.png)
 
+From 2011 to 2016, the return stays around 0%. Beginning 2017, the return has an initial slight increase, but then begins to exponentially increase after that. By 2021, the return values hit a peak of about 15,000%. As demonstrated by the chaotic growth of our strategy, the stock price is volatile, making accurate forcasting of future returns near impossible.  
+
 ## Dishonest chart (log scale):
 ![dishonest_log](dishonest_log.png)
 
