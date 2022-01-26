@@ -8,3 +8,6 @@
 
 ## Honest chart:
 ![honest](honest.png)
+
+## Honest chart 2:
+![honest 2](honest_hist.png)
