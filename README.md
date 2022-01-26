@@ -1,5 +1,5 @@
 ## Dishonest chart:
-100x your money using our proprietary strategy (every 3 days, find the 9th worst preforming stock that day. Invest all your money in it and sell 3 days later)
+100x your money using our proprietary strategy (every 3 days, find the 9th worst preforming stock that day, invest all your money in it, and sell 3 days later)
 
 ![dishonest](dishonest.png)
 
